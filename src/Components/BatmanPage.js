@@ -3,7 +3,7 @@ import React from "react";
 const BatmanPage = () => {
   return (
     <section className="overflow-hidden text-gray-700">
-      <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32 space-y-3">
+      <div className="container px-5 py-2 mx-auto  space-y-3">
         <div className="flex justify-center">
           <p className="font-lobster text-center text-3xl md:text-5xl">Batman gallery</p>
         </div>
