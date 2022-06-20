@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import {  Routes, Route, Link, HashRouter } from "react-router-dom";
 import MenuApp from "../Components/MenuApp";
 import TwentySixPage from "../Components/TwentySixPage";
 import BatmanPage from "../Components/BatmanPage";
@@ -8,7 +8,7 @@ import AboutPage from "../Components/AboutPage";
 
 const RouterBase = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MenuApp />}/>
         <Route path="repo" element={<MenuApp />}>
@@ -22,7 +22,7 @@ const RouterBase = () => {
         </Route>
         <Route path="*" element={<div className="flex justify-center items-center" ><Link to="repo/app" className=" font-lobster text-5xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Ver Menú</Link></div>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
