@@ -10,7 +10,7 @@ const RouterBase = () => {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<MenuApp />}/>
+        <Route path="/" element={<div className="flex justify-center items-center" ><Link to="app" className=" font-lobster text-5xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Ver Menú</Link></div>}/>
         
           <Route path="app" element={<MenuApp />}>
             <Route path="26-06-2022" element={<TwentySixPage />}/>
@@ -19,7 +19,7 @@ const RouterBase = () => {
             <Route path="*" element={<div className="flex justify-center" ><p className="font-lobster text-4xl font-semibold  text-gray-700">Selecciona una opción del Menu</p></div>}/>
           </Route> 
         
-        <Route path="*" element={<div className="flex justify-center items-center" ><Link to="repo/app" className=" font-lobster text-5xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Ver Menú</Link></div>}/>
+        <Route path="*" element={<div className="flex justify-center items-center" ><Link to="app" className=" font-lobster text-5xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Ver Menú</Link></div>}/>
       </Routes>
     </HashRouter>
   );
