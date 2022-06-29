@@ -10,14 +10,14 @@ const MenuApp = () => {
             <p className="font-lobster text-5xl font-semibold">Menu</p>
           </div>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <Link to="26-06-2022" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">26-06-2022</Link>
+            {/*<Link to="26-06-2022" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">26-06-2022</Link>*/}
             <Link to="about" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Acerca de</Link>
             <Link to="batman" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Ver a Batman</Link>
           </nav>       
         </div>
       </header>
       
-      <main className="container  mx-auto px-5 pb-3">
+      <main className="  mx-auto px-5 pb-3">
         <Outlet />
       </main>
     </div>
