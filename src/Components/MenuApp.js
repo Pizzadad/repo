@@ -17,7 +17,7 @@ const MenuApp = () => {
         </div>
       </header>
       
-      <main className="  mx-auto px-5 pb-3">
+      <main className="container  mx-auto px-5 pb-3">
         <Outlet />
       </main>
     </div>
