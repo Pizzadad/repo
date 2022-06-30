@@ -13,6 +13,7 @@ const MenuApp = () => {
             {/*<Link to="26-06-2022" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">26-06-2022</Link>*/}
             <Link to="about" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">About</Link>
             <Link to="batman" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Batman 🐶</Link>
+            <Link to="memories" className="font-lobster text-xl mr-5 font-semibold text-amber-800 no-underline  hover:text-black hover:underline">Memories 😵</Link>
           </nav>       
         </div>
       </header>

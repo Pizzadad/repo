@@ -4,7 +4,7 @@ import MenuApp from "../Components/MenuApp";
 import TwentySixPage from "../Components/TwentySixPage";
 import BatmanPage from "../Components/BatmanPage";
 import AboutPage from "../Components/AboutPage";
-
+import MemoriesPage from "../Components/MemoriesPage";
 
 const RouterBase = () => {
   return (
@@ -16,6 +16,7 @@ const RouterBase = () => {
             <Route path="26-06-2022" element={<TwentySixPage />}/>
             <Route path="batman" element={<BatmanPage />}/>
             <Route path="about" element={<AboutPage />}/>
+            <Route path="memories" element={<MemoriesPage />}/>
             <Route path="*" element={<div className="flex justify-center" ><p className="font-lobster text-4xl font-semibold  text-gray-700">Selecciona una opción del Menu</p></div>}/>
           </Route> 
         
