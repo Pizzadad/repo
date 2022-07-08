@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 
 const MenuApp = () => {
   return (
-    <div className="w-full h-full lg:h-screen bg-gradient-to-t from-orange-200  to-orange-300">    
+    <div className="w-full h-full bg-gradient-to-t from-orange-200  to-orange-300">    
       <header className="text-black ">
         <div className="container mx-auto flex flex-wrap p-5 flex-col items-center space-y-4">
           <div className="flex title-font font-medium items-center text-amber-800 mb-2 md:mb-0">    
